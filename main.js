@@ -40,18 +40,33 @@
 
 // SELFWORK 3
 
-let currentAge = 2026;
+// let currentAge = 2026;
 
-let birthdayAge = 1991;
+// let birthdayAge = 1991;
 
-let age = currentAge - birthdayAge;
+// let age = currentAge - birthdayAge;
 
-console.log(age);
+// console.log(age);
 
-let hundred = 100 - age
+// let hundred = 100 - age;
 
-console.log(hundred);
+// console.log(hundred);
 
 
-console.log(`Hai ${age} anni e ti mancano ${hundred} anni per compierne 100`);
+// console.log(`Hai ${age} anni e ti mancano ${hundred} anni per compierne 100`);
 
+// SELFWORK 4
+
+let a = Number(prompt("scegli un numero"));
+let b = Number(prompt("scegline un altro"));
+
+let somma =  a + b;
+let sottrazione = a-b;
+let moltiplicazione = a*b;
+let divisione = a/b;
+let potenza = a**b;
+
+console.log(somma,sottrazione,moltiplicazione,divisione,potenza);
+
+
+console.log(`Con i numeri da te scelti, i risultati delle varie operazioni sono: somma (${somma}), sottrazione(${sottrazione}, moltiplicazione(${moltiplicazione}), divisione(${divisione}), potenza (${potenza})`);
