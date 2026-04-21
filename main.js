@@ -57,16 +57,34 @@
 
 // SELFWORK 4
 
-let a = Number(prompt("scegli un numero"));
-let b = Number(prompt("scegline un altro"));
+// let a = Number(prompt("scegli un numero"));
+// let b = Number(prompt("scegline un altro"));
 
-let somma =  a + b;
-let sottrazione = a-b;
-let moltiplicazione = a*b;
-let divisione = a/b;
-let potenza = a**b;
+// let somma =  a + b;
+// let sottrazione = a-b;
+// let moltiplicazione = a*b;
+// let divisione = a/b;
+// let potenza = a**b;
 
-console.log(somma,sottrazione,moltiplicazione,divisione,potenza);
+// console.log(somma,sottrazione,moltiplicazione,divisione,potenza);
 
 
-console.log(`Con i numeri da te scelti, i risultati delle varie operazioni sono: somma (${somma}), sottrazione(${sottrazione}, moltiplicazione(${moltiplicazione}), divisione(${divisione}), potenza (${potenza})`);
+// console.log(`Con i numeri da te scelti, i risultati delle varie operazioni sono: somma (${somma}), sottrazione(${sottrazione}), moltiplicazione(${moltiplicazione}), divisione(${divisione}), potenza (${potenza})`);
+
+
+// SELFWORK 5
+
+let cat = 75;
+let catRow = 8;
+
+let row = Math.floor(cat / catRow);
+
+console.log(row);
+
+let miss = row * catRow + catRow - cat
+console.log(miss);
+
+let out = cat%catRow
+console.log(out);
+
+console.log(`Ci sono ${row} file di gatti e ne mancano ${miss} per una nuova fila, con un avanzo di ${out}`);
